@@ -1,0 +1,82 @@
+.contact-me{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+.contact-intro{
+    margin-top: 200px
+}
+
+.contact-intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title{
+    font-size: 30px;
+    font-weight: 500;
+}
+.content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.content-title, .content .feel-free{
+    display: flex;
+    justify-content: start;
+}
+.feel-free{
+    margin-top: 20px;
+}
+.content .list-item {
+    margin-top: 20px;
+}
+
+.address{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.list-item .item img{
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.address-title{
+    display: flex;
+    justify-content: start;
+    font-size: 30px;
+}
+.address-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.address-item img{
+    height: 40px;
+}
+.contact-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-intro .contact{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}
+.lets-connect{
+    font-size: 50px;
+}

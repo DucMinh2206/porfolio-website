@@ -1,0 +1,100 @@
+.project{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.project-text{
+    display: Flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+
+.recent-project{
+    font-size: 50px;
+    color: rgb(84, 84, 84);
+    font-weight: 200;
+    font-family: var(--wp--preset--font-family--title);
+    letter-spacing: .125em;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+}
+.project-intro{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.project-contanier{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 40px;
+}
+
+.project-img{
+    position: relative;
+    top: 0px;
+}
+
+.project-img::after{
+    content: '';
+    position: absolute;
+    background-color: #9f9fa0;
+    width: 400px;
+    height: 175px;
+    border-radius: 4px;
+    top: -20px;
+    left: -20px;
+    z-index: 10;    
+}
+
+.project-item{
+    /* background-color: #222733; */
+    position: relative;
+    margin-left: 30px;
+    height: 300px;
+}
+
+.project-img img{
+    width: 350px;
+    position: absolute;
+    z-index: 100;
+}
+.project-details{
+    position: absolute;
+    bottom: 0px;
+}
+.project-time-link{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.project-link{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+.project-link a{
+    font-size: 20px;
+}
+
+.project-name a{
+    color: #5A79FF;
+    font-size: 30px;
+}
+.project-time{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.project-purpose{
+    margin-top: 20px;
+    font-size: 20px;
+}

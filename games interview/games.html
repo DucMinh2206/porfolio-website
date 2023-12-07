@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 
+		Nguyen_Duc_Minh.com
+		</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "games.css">
+
+        <script src = "games.js"></script>
+	</head>
+
+    <body>
+        <main>
+            <div class = "top-header">
+
+                <div class = "left-header">
+                    <button onclick="playAgain()" class = "button-playagain">
+                        Again!
+                    </button>
+                </div>
+
+                <div class = "right-header">
+                    From 1 to 20
+                </div>
+            </div>
+
+            <div class = "guess-my-number">
+                Guess my number!
+            </div>
+
+            <div class = "container-line">
+                <div class = "line">
+                    
+                </div>
+
+                <div class = "line-ques">
+                    ?
+                </div>
+                
+            </div>
+
+            <section class = "downside">
+                <div class = "left-downside">
+                    <input type = "number" maxlength="2" id = "number-input" class = "number-input">
+
+                    <button onclick = "numbercheck()" class = "button-check">
+                        Check!
+                    </button> 
+                </div>
+
+                <div class = "right-downside">
+                    
+                    <div class = "container-startguessing">
+                        <div style = "margin-right: 10px">
+                            Start Guessing...
+                        </div>
+
+                        <div id = "start-guessing">
+                            In game
+                        </div>
+                    </div>
+
+
+                    <div class = "container-try">
+                        <div style = "margin-right: 10px">
+                            Try:
+                        </div>
+                        <div id = "number-try">
+                              0
+                        </div>
+                    </div>
+
+                    <div class = "container-numbercorrect">
+
+                        <div style = "margin-right: 10px">
+                            Guessed number
+                        </div>
+                        <div id = "number-correct" style = "margin-right: 10px">
+                            0
+                        </div>
+                    </div>
+
+
+                    <div class = "container-score">
+                        <div style = "margin-right: 10px">
+                            Score 
+                        </div>
+                        <div id = "score"> 
+                           0 
+                        </div>
+                    </div>
+
+                    <div class = "container-highscore">
+                        <div style = "margin-right: 10px">
+                            HighScore:   
+                        </div>
+                        <div id = "high-score"> 
+                           0 
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+
+    </body>
+
+</html>

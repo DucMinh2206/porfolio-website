@@ -1,0 +1,40 @@
+.introduction{
+    font-size: 22px;
+    width: 600px
+}
+.page-about-me{
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    margin: 0px 20px 0px 20px;
+    margin-bottom: 300px;
+}
+
+.left-about-me{
+    width: 301px;
+
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.left-about-me img{
+    width: 400px;
+    border-radius: 30%;
+}
+
+.right-about-me{
+    flex: 1;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.right-about-me .title{
+    padding-top: 0px;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+}

@@ -1,0 +1,108 @@
+.time-line{
+    position: relative;
+    margin: 0px auto;
+    margin-bottom: 400px;
+}
+
+.time-line-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.intro-name{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.timeline-intro{
+    font-size: 20px;
+}
+
+.my-journey{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.time-line::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    background-color: #d7e4ed;
+    margin-left: -7px;
+}
+.container{
+    position: relative;
+    width: 50%;
+}
+
+.left{
+    left: 0;
+}
+.right{
+    left: 50%;
+
+}
+.img-left{
+    height: 75px;
+    position: absolute;
+    top: 10px;
+    right: -37.8px;
+    border-radius: 100%;
+    z-index: 90;
+
+}
+.right::after{
+    left: -40px;
+}
+.img-right{ 
+    height: 75px;
+    position: absolute;
+    top: 10px;
+    left: -33.5px;
+    border-radius: 100%;
+    z-index: 90;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+     
+    right: -44px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 4px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .content-time{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .time-line{
+    margin-top: 50px;
+  }
+
+/*arrow of content*/
+
+
+.content-details{
+    font-size: 20px;
+}
+.content{
+    background-color: #f8f9fb;
+    padding: 10px 40px 10px 40px;
+    margin-right: 60px;
+}

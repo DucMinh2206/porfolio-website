@@ -1,0 +1,102 @@
+.game{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.game-text{
+    display: Flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+
+.recent-game{
+    font-size: 50px;
+    color: rgb(84, 84, 84);
+    font-weight: 200;
+    font-family: var(--wp--preset--font-family--title);
+    letter-spacing: .125em;
+    line-height: 1.1;
+    text-transform: uppercase;
+    text-align: center;
+}
+.game-intro{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.game-contanier{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 40px;
+}
+
+.game-img{
+    position: relative;
+    top: 0px;
+}
+
+.game-img::after{
+    content: '';
+    position: absolute;
+    background-color: #9f9fa0;
+    width: 400px;
+    height: 250px;
+    border-radius: 4px;
+    top: -20px;
+    left: -20px;
+    z-index: 10;    
+}
+
+.game-item{
+    /* background-color: #222733; */
+    position: relative;
+    margin-left: 30px;
+    height: 300px;
+}
+
+.game-img img{
+    width: 350px;
+    position: absolute;
+    z-index: 100;
+}
+.game-details{
+    position: absolute;
+    margin-top: px;
+    bottom: -40px;
+}
+.game-time-link{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.game-link{
+    display: flex;
+    flex: 1;
+    justify-content: end;
+}
+.game-link a{
+    font-size: 25px;
+}
+
+.game-name {
+    color: #5A79FF;
+    font-size: 30px;
+}
+.game-time{
+    width: 250px;
+    display: flex;
+    justify-content: start;
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.game-purpose{
+    margin-top: 20px;
+    font-size: 20px;
+}
